@@ -16,11 +16,7 @@
             OnCellEditorInitialize="grid_CellEditorInitialize" 
             onrowinserting="grid_RowInserting" onrowupdating="grid_RowUpdating">
             <Columns>
-                <dx:GridViewCommandColumn VisibleIndex="0">
-                    <EditButton Visible="True">
-                    </EditButton>
-                    <NewButton Visible="True">
-                    </NewButton>
+                <dx:GridViewCommandColumn VisibleIndex="0" ShowEditButton="true" ShowNewButton="true">
                 </dx:GridViewCommandColumn>
                 <dx:GridViewDataTextColumn FieldName="ProductID" ReadOnly="True" VisibleIndex="1">
                     <EditFormSettings Visible="False" />
