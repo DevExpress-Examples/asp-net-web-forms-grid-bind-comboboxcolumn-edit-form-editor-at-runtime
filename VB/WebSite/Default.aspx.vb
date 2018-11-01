@@ -1,4 +1,6 @@
-﻿Imports System
+﻿Option Infer On
+
+Imports System
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Web
@@ -10,18 +12,13 @@ Partial Public Class _Default
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+        Dim comboColumn = (CType(grid.Columns("CategoryID"), GridViewDataComboBoxColumn))
+        comboColumn.PropertiesComboBox.DataSource = dsCombo
+        comboColumn.PropertiesComboBox.TextField = "CategoryName"
+        comboColumn.PropertiesComboBox.ValueField = "CategoryID"
+        comboColumn.PropertiesComboBox.ValueType = GetType(Int32)
+    End Sub
 
-    End Sub
-    Protected Sub grid_CellEditorInitialize(ByVal sender As Object, ByVal e As ASPxGridViewEditorEventArgs)
-        If e.Column.FieldName = "CategoryID" Then
-            Dim cmb As ASPxComboBox = TryCast(e.Editor, ASPxComboBox)
-            cmb.DataSource = dsCombo
-            cmb.ValueField = "CategoryID"
-            cmb.ValueType = GetType(Int32)
-            cmb.TextField = "CategoryName"
-            cmb.DataBindItems()
-        End If
-    End Sub
     Protected Sub grid_RowInserting(ByVal sender As Object, ByVal e As DevExpress.Web.Data.ASPxDataInsertingEventArgs)
         Throw New CallbackException("Data modifications are not allowed in the online example.")
     End Sub
