@@ -12,8 +12,7 @@
     <form id="form1" runat="server">
     <div>
         <dx:ASPxGridView ID="grid" runat="server"  OnCustomErrorText="grid_CustomErrorText"  AutoGenerateColumns="False" DataSourceID="dsGrid"
-            KeyFieldName="ProductID" 
-            OnCellEditorInitialize="grid_CellEditorInitialize" 
+            KeyFieldName="ProductID"  
             onrowinserting="grid_RowInserting" onrowupdating="grid_RowUpdating">
             <Columns>
                 <dx:GridViewCommandColumn VisibleIndex="0" ShowEditButton="true" ShowNewButton="true">
