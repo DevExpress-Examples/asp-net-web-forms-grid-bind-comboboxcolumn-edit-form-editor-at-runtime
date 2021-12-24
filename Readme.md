@@ -39,6 +39,7 @@ protected void Page_Load(object sender, EventArgs e) {
 ## Documentation
 
 * [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView)
+* [Grid View - Edit Data](https://docs.devexpress.com/AspNet/3712/components/grid-view/concepts/edit-data)
 * [Grid View - Examples](https://docs.devexpress.com/AspNet/3768/components/grid-view/examples)
 
 ## More Examples
