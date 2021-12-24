@@ -42,3 +42,7 @@ protected void Page_Load(object sender, EventArgs e) {
 * [Grid View - Examples](https://docs.devexpress.com/AspNet/3768/components/grid-view/examples)
 
 ## More Examples
+
+* [ASPxGridView - How to bind GridViewDataComboBoxColumn Edit Form editor at runtime](https://github.com/DevExpress-Examples/aspxgridview-batch-edit-how-to-calculate-values-on-the-fly-t114539)
+* [How to edit data in a DataTable using ASPxGridView at runtime when data is stored in ViewState](https://github.com/DevExpress-Examples/how-to-edit-data-in-a-datatable-using-aspxgridview-at-runtime-when-data-is-stored-in-viewsta-e2945)
+* [ASPxGridView - Batch Edit mode - How to remove already selected ComboBox column items](https://github.com/DevExpress-Examples/aspxgridview-batch-edit-mode-how-to-remove-already-selected-combobox-column-items-t449262)
