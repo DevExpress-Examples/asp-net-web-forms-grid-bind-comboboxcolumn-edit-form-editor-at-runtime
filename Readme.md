@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Grid View for ASP.NET Web Forms - How to Bind the GridViewDataComboBoxColumn Edit Form Editor at Runtime
+# Grid View for ASP.NET Web Forms - How to dind the GridViewDataComboBoxColumn edit form editor at runtime
 
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/128533412/)**
@@ -15,7 +15,7 @@ This example illustrates how to populate a [GridViewDataComboBoxColumn](https://
 
 ![A grid with an edit form](images/grid-with-edit-form.png)
 
-Use the [GridViewDataComboBoxColumn.PropertiesComboBox](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataComboBoxColumn.PropertiesComboBox) property to access and customize column editor settings:
+Use the [`GridViewDataComboBoxColumn.PropertiesComboBox`](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataComboBoxColumn.PropertiesComboBox) property to access and customize column editor settings:
 
 ```cs
 protected void Page_Load(object sender, EventArgs e) {
