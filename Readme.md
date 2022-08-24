@@ -15,7 +15,7 @@ This example illustrates how to populate a [GridViewDataComboBoxColumn](https://
 
 ![A grid with an edit form](images/grid-with-edit-form.png)
 
-Use the [`GridViewDataComboBoxColumn.PropertiesComboBox`](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataComboBoxColumn.PropertiesComboBox) property to access and customize column editor settings:
+Use the [GridViewDataComboBoxColumn.PropertiesComboBox](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataComboBoxColumn.PropertiesComboBox) property to access and customize column editor settings:
 
 ```cs
 protected void Page_Load(object sender, EventArgs e) {
