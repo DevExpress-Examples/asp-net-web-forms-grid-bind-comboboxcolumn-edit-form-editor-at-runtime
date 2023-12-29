@@ -6,9 +6,6 @@
 
 # Grid View for ASP.NET Web Forms - How to bind the GridViewDataComboBoxColumn edit form editor at runtime
 
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128533412/)**
-<!-- run online end -->
 
 
 This example illustrates how to populate a [GridViewDataComboBoxColumn](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataComboBoxColumn?p=netframework) with data and set its properties at runtime.
