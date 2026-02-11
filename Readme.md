@@ -46,7 +46,7 @@ protected void Page_Load(object sender, EventArgs e) {
 * [How to edit data in a DataTable using ASPxGridView at runtime when data is stored in ViewState](https://github.com/DevExpress-Examples/how-to-edit-data-in-a-datatable-using-aspxgridview-at-runtime-when-data-is-stored-in-viewsta-e2945)
 * [ASPxGridView - Batch Edit mode - How to remove already selected ComboBox column items](https://github.com/DevExpress-Examples/aspxgridview-batch-edit-mode-how-to-remove-already-selected-combobox-column-items-t449262)
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-bind-comboboxcolumn-edit-form-editor-at-runtime&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-bind-comboboxcolumn-edit-form-editor-at-runtime&~~~was_helpful=no)
 
